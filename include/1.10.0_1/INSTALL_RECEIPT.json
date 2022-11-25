@@ -1,0 +1,50 @@
+{
+  "homebrew_version": "3.6.0-32-g5cd8533",
+  "used_options": [
+
+  ],
+  "unused_options": [
+
+  ],
+  "built_as_bottle": true,
+  "poured_from_bottle": true,
+  "loaded_from_api": null,
+  "installed_as_dependency": false,
+  "installed_on_request": true,
+  "changed_files": [
+    "lib/pkgconfig/spdlog.pc"
+  ],
+  "time": 1669347547,
+  "source_modified_time": 1649080138,
+  "compiler": "clang",
+  "aliases": [
+
+  ],
+  "runtime_dependencies": [
+    {
+      "full_name": "fmt",
+      "version": "9.1.0",
+      "declared_directly": true
+    }
+  ],
+  "source": {
+    "spec": "stable",
+    "versions": {
+      "stable": "1.10.0",
+      "head": null,
+      "version_scheme": 0
+    },
+    "path": "/Users/iachaudray/homebrew/Library/Taps/homebrew/homebrew-core/Formula/spdlog.rb",
+    "tap_git_head": "71fadc51a3415d56b74a8efe8688b7ec17b47123",
+    "tap": "homebrew/core"
+  },
+  "arch": "x86_64",
+  "built_on": {
+    "os": "Macintosh",
+    "os_version": "macOS 12",
+    "cpu_family": "penryn",
+    "xcode": "13.4",
+    "clt": "13.4.0.0.1.1651278267",
+    "preferred_perl": "5.30"
+  }
+}
