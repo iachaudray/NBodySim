@@ -19,6 +19,7 @@ public:
     virtual ~Window();
     inline bool windowShouldClose() { return glfwWindowShouldClose(m_wndw);};
     static bool isGlfwInitialized;
+    void closeWindow();
 private:
     GLFWwindow* m_wndw{};
 

@@ -4,6 +4,7 @@
 
 #include "Application.h"
 #include "Window.h"
+#include "Util/Keys/KeyInputHandler.h"
 Application::Application() {
     m_window = new Window();
     m_window->setWindowHint(GLFW_VERSION_MAJOR, 4);
@@ -19,8 +20,9 @@ void Application::run() {
     m_window->start();
 
     while (!m_window->windowShouldClose()) {
-
+        if (KeyInputHandler::getKeyPressed(GLFW_KEY_E)) {
+            m_window->closeWindow();
+        }
         m_window->update();
     }
-    return;
 }

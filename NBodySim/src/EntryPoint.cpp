@@ -8,8 +8,8 @@
 #include "Application.h"
 int main(int argc, char** argv) {
     Log::Init();
-    LOG_TRACE("HELLO");
     auto app = new Application();
+    LOG_INFO("Application created");
     app->run();
     return 0;
 }
