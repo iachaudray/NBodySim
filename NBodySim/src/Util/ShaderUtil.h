@@ -1,21 +1,29 @@
 //
-// Created by Ibaad A. Chaudray on 11/28/22.
+// Created by Ibaad A. Chaudray on 9/28/22.
 //
-
 #pragma once
-#include "string"
-
+#include <cstdio>
+#include <filesystem>
 class ShaderUtil {
 public:
-    ShaderUtil(const std::string &mShaderSource, const std::string &mVertexSource, const std::string &mFragmentSource);
+    std::filesystem::path file;
+    std::string vertex;
+    std::string fragment;
+    std::string geometry;
+    unsigned int fragmentID;
+    unsigned int vertexID;
+    unsigned int shaderProgram;
+    explicit ShaderUtil(const char *filePath);
 
     virtual ~ShaderUtil();
-    ShaderUtil(const char* source);
+
+    static std::string asString(const char* string);
 
 
+    int compileShader();
+    //static int compileShader(const char* filePath);
+    void s_use();
 private:
-    std::string m_shaderSource;
-    std::string m_vertexSource;
-    std::string m_fragmentSource;
+    void asStringtwo();
 
 };

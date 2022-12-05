@@ -35,7 +35,7 @@ void Window::start() {
     glfwSetKeyCallback(m_wndw, KeyInputHandler::key_callback);
     glfwFocusWindow(m_wndw);
     glfwMakeContextCurrent(m_wndw);
-    LOG_INFO("Created window");
+    LOG_INFO("Window Created");
 }
 
 Window::~Window() {

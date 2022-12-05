@@ -3,8 +3,9 @@
 //
 
 #pragma once
-
-
+#include "string"
+#include "Util/ShaderUtil.h"
 class Renderer {
-
+public:
+    Renderer(const char* shaderSource);
 };

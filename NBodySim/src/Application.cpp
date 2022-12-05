@@ -5,6 +5,8 @@
 #include "Application.h"
 #include "Window.h"
 #include "Util/Keys/KeyInputHandler.h"
+#include "Renderer.h"
+
 Application::Application() {
     m_window = new Window();
     m_window->setWindowHint(GLFW_VERSION_MAJOR, 4);
@@ -18,6 +20,8 @@ Application::~Application() {
 void Application::run() {
 
     m_window->start();
+    auto render = Renderer("/Users/iachaudray/CLionProjects/NBodySimulation/NBodySim/assets/default.glsl");
+
 
     while (!m_window->windowShouldClose()) {
         if (KeyInputHandler::getKeyPressed(GLFW_KEY_E)) {

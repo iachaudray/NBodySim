@@ -3,3 +3,10 @@
 //
 
 #include "Renderer.h"
+
+Renderer::Renderer(const char* shaderSource) {
+    auto shader = new ShaderUtil(shaderSource);
+
+
+
+}
