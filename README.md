@@ -1,5 +1,7 @@
 # NBodySim
 build:\
-cmake -G 'Unix Makefiles' ..\
-make\
-./build/NBodySimulation\
+run:
+```console
+make
+```
+in build file
