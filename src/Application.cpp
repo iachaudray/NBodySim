@@ -4,8 +4,9 @@
 
 #include "Application.h"
 #include "Window.h"
-#include "Util/Keys/KeyInputHandler.h"
-#include "Renderer.h"
+#include "Util/Input/KeyInputHandler.h"
+#include "Util/Render/Renderer.h"
+
 
 Application::Application() {
     m_window = new Window();
@@ -20,6 +21,10 @@ Application::~Application() {
 void Application::run() {
 
     m_window->start();
+
+
+
+
     auto render = Renderer("/Users/iachaudray/CLionProjects/NBodySimulation/NBodySim/assets/default.glsl");
 
 
@@ -28,5 +33,6 @@ void Application::run() {
             m_window->closeWindow();
         }
         m_window->update();
+        render.render();
     }
 }

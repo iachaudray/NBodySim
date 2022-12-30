@@ -4,6 +4,9 @@
 #pragma once
 #include <cstdio>
 #include <filesystem>
+#include <GLFW/glfw3.h>
+#include "glm/detail/type_mat4x4.hpp"
+
 class ShaderUtil {
 public:
     std::filesystem::path file;
@@ -23,7 +26,15 @@ public:
     int compileShader();
     //static int compileShader(const char* filePath);
     void s_use();
+
+    void uploadMat4(const char* uniform, glm::mat4 Matrix);
+    void uploadVec3(const char* uniform, GLfloat* value);
+    void uploadVec2(const char* uniform, GLfloat* value);
+
 private:
     void asStringtwo();
+
+
+
 
 };

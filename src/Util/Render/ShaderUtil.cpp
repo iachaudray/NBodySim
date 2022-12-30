@@ -6,8 +6,10 @@
 #include <iostream>
 #include <sstream>
 #include "ShaderUtil.h"
-#include "glfw/glfw3.h"
-#include "../Log.h"
+#include "GLFW/glfw3.h"
+#include "Log.h"
+#include "glm/ext/matrix_float4x4.hpp"
+#include "glm/gtc/type_ptr.hpp"
 #include <filesystem>
 std::string ShaderUtil::asString(const char *string) {
     std::ifstream t(string);
@@ -120,3 +122,22 @@ int ShaderUtil::compileShader() {
 void ShaderUtil::s_use() {
     glUseProgram(shaderProgram);
 }
+
+void ShaderUtil::uploadMat4(const char* uniform, glm::mat4 Matrix) {
+    unsigned int transformLoc = glGetUniformLocation(shaderProgram, uniform);
+    glUniformMatrix4fv(transformLoc, 1, GL_FALSE, glm::value_ptr(((Matrix))));
+
+
+}
+
+void ShaderUtil::uploadVec3(const char* uniform, GLfloat* value) {
+    unsigned int transformLoc = glGetUniformLocation(shaderProgram, uniform);
+    glUniform3fv(transformLoc, 1, value);
+}
+
+void ShaderUtil::uploadVec2(const char* uniform, GLfloat* value) {
+    unsigned int transformLoc = glGetUniformLocation(shaderProgram, uniform);
+    glUniform2fv(transformLoc, 1, value);
+}
+
+

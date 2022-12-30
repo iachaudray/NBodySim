@@ -3,8 +3,9 @@
 //
 
 #pragma once
-#include "memory"
-#include "spdlog/spdlog.h"
+#include "/Users/iachaudray/CLionProjects/NBodySimulation/include/1.10.0_1/spdlog/spdlog.h"
+#include <memory>
+
 
 class Log {
 

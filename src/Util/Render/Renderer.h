@@ -4,7 +4,7 @@
 
 #pragma once
 #include "string"
-#include "Util/ShaderUtil.h"
+#include "ShaderUtil.h"
 #include <vector>
 
 class Renderer {
@@ -12,10 +12,13 @@ public:
     explicit Renderer(const char* shaderSource);
     void render();
 private:
-
+    float x;
     ShaderUtil* shader;
     std::vector<float> vertices;
-    unsigned int VBO;
+    std::vector<unsigned int> elements;
+    unsigned int VBO{};
     unsigned int VAO;
-    int error;
+    unsigned int EBO;
+    int error{};
+    glm::mat4 model;
 };
