@@ -1,8 +1,8 @@
-# Install script for directory: /Users/iachaudray/CLionProjects/NBodySimulationcopy
+# Install script for directory: /Users/hamayalchaudray/Desktop/vscode/NBodySim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/Users/iachaudray/homebrew")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/iachaudray/CLionProjects/NBodySimulationcopy/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

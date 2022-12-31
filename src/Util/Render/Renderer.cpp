@@ -55,8 +55,5 @@ void Renderer::render() {
     shader->s_use();
 
     glDrawElements(GL_TRIANGLES, elements.size(), GL_UNSIGNED_INT, 0);
-    error = glGetError();
-    if (error != 0) {
-        LOG_INFO("First Frame " + std::to_string(glGetError()));
-    }
+    
 }

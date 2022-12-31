@@ -15,7 +15,8 @@
                 "echo": true,
                 "reveal": "always",
                 "panel": "shared"
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "make",
@@ -25,7 +26,8 @@
                 "reveal": "always",
                 "panel": "shared"
             },
-            "isBuildCommand": true
+            "isBuildCommand": true,
+            "problemMatcher": []
         }
     ]
 }

@@ -16,19 +16,17 @@ std::string ShaderUtil::asString(const char *string) {
     std::stringstream buffer;
     buffer << t.rdbuf();
     return buffer.str();
-
 }
 void ShaderUtil::asStringtwo() {
     int state = 0;// 0 = look for shader type, 1= vertex, 2=fragment, 3= geometry
     std::ifstream t(file.string());
-
     std::stringstream buffer;
     buffer << t.rdbuf();
-    std::istringstream input;
+    std::istringstream input(buffer.str());
     input.str(buffer.str());
-
     for (std::string line; std::getline(input, line);) {
         //std::cout << line << "\n" << std::endl;
+        LOG_INFO(line);
         if (line.length() > 0) {
             if (line.length() == 8 && (std::equal(line.begin(), line.end(), "//vertex"))) {
                 state = 1;
@@ -61,6 +59,8 @@ void ShaderUtil::asStringtwo() {
         }
 
     }
+    LOG_INFO("Vertex Data");
+    LOG_INFO(vertex.data());
 
 }
 
@@ -68,6 +68,9 @@ ShaderUtil::~ShaderUtil() = default;
 
 ShaderUtil::ShaderUtil(const char *filePath)  {
     file = std::filesystem::path(filePath);
+    vertex = std::string("");
+    fragment = std::string("");
+    geometry = std::string("");
     vertexID = glCreateShader(GL_VERTEX_SHADER);
     fragmentID = glCreateShader(GL_VERTEX_SHADER);
     shaderProgram = glCreateProgram();
@@ -77,10 +80,9 @@ ShaderUtil::ShaderUtil(const char *filePath)  {
 
 int ShaderUtil::compileShader() {
     auto vertexShaderSource = vertex.c_str();
-
     glShaderSource(vertexID, 1, &vertexShaderSource, NULL);
     glCompileShader(vertexID);
-    int success;
+    int success = 1;
     char infoLog[512];
     glGetShaderiv(vertexID, GL_COMPILE_STATUS, &success);
     if (!success) {
@@ -111,7 +113,8 @@ int ShaderUtil::compileShader() {
     glGetProgramiv(shaderProgram, GL_LINK_STATUS, &success);
     if(!success) {
         glGetProgramInfoLog(shaderProgram, 512, NULL, infoLog);
-        LOG_ERROR(std::string("Shader Program failed to compile") + std::string(infoLog));
+        LOG_ERROR("HELP!");
+        LOG_ERROR(std::string("Shader Program failed to compile ") + std::string(infoLog));
     }
 
     glDeleteShader(vertexID);

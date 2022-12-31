@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "/Users/iachaudray/CLionProjects/NBodySimulation/include/1.10.0_1/spdlog/spdlog.h"
+#include "1.10.0_1/spdlog/spdlog.h"
 #include <memory>
 
 

@@ -12,6 +12,7 @@ Application::Application() {
     m_window = new Window();
     m_window->setWindowHint(GLFW_VERSION_MAJOR, 4);
     m_window->setWindowHint(GLFW_VERSION_MINOR, 1);
+    m_window->start();
 }
 
 Application::~Application() {
@@ -20,12 +21,12 @@ Application::~Application() {
 
 void Application::run() {
 
-    m_window->start();
+    
 
 
 
 
-    auto render = Renderer("/Users/iachaudray/CLionProjects/NBodySimulation/NBodySim/assets/default.glsl");
+    auto renderer = Renderer("../assets/default.glsl");
 
 
     while (!m_window->windowShouldClose()) {
@@ -33,6 +34,6 @@ void Application::run() {
             m_window->closeWindow();
         }
         m_window->update();
-        render.render();
+        renderer.render();
     }
 }
