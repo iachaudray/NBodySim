@@ -132,6 +132,174 @@ NBodySimulation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/build
 .PHONY : NBodySimulation/fast
 
+include/imgui/backends/imgui_impl_glfw.o: include/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : include/imgui/backends/imgui_impl_glfw.o
+
+# target to build an object file
+include/imgui/backends/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : include/imgui/backends/imgui_impl_glfw.cpp.o
+
+include/imgui/backends/imgui_impl_glfw.i: include/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+include/imgui/backends/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_glfw.cpp.i
+
+include/imgui/backends/imgui_impl_glfw.s: include/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+include/imgui/backends/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_glfw.cpp.s
+
+include/imgui/backends/imgui_impl_opengl3.o: include/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : include/imgui/backends/imgui_impl_opengl3.o
+
+# target to build an object file
+include/imgui/backends/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : include/imgui/backends/imgui_impl_opengl3.cpp.o
+
+include/imgui/backends/imgui_impl_opengl3.i: include/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+include/imgui/backends/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : include/imgui/backends/imgui_impl_opengl3.cpp.i
+
+include/imgui/backends/imgui_impl_opengl3.s: include/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+include/imgui/backends/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : include/imgui/backends/imgui_impl_opengl3.cpp.s
+
+include/imgui/imgui.o: include/imgui/imgui.cpp.o
+.PHONY : include/imgui/imgui.o
+
+# target to build an object file
+include/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui.cpp.o
+.PHONY : include/imgui/imgui.cpp.o
+
+include/imgui/imgui.i: include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.i
+
+# target to preprocess a source file
+include/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.cpp.i
+
+include/imgui/imgui.s: include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.s
+
+# target to generate assembly for a file
+include/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.cpp.s
+
+include/imgui/imgui_demo.o: include/imgui/imgui_demo.cpp.o
+.PHONY : include/imgui/imgui_demo.o
+
+# target to build an object file
+include/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_demo.cpp.o
+.PHONY : include/imgui/imgui_demo.cpp.o
+
+include/imgui/imgui_demo.i: include/imgui/imgui_demo.cpp.i
+.PHONY : include/imgui/imgui_demo.i
+
+# target to preprocess a source file
+include/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_demo.cpp.i
+.PHONY : include/imgui/imgui_demo.cpp.i
+
+include/imgui/imgui_demo.s: include/imgui/imgui_demo.cpp.s
+.PHONY : include/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+include/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_demo.cpp.s
+.PHONY : include/imgui/imgui_demo.cpp.s
+
+include/imgui/imgui_draw.o: include/imgui/imgui_draw.cpp.o
+.PHONY : include/imgui/imgui_draw.o
+
+# target to build an object file
+include/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_draw.cpp.o
+.PHONY : include/imgui/imgui_draw.cpp.o
+
+include/imgui/imgui_draw.i: include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.i
+
+# target to preprocess a source file
+include/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.cpp.i
+
+include/imgui/imgui_draw.s: include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+include/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.cpp.s
+
+include/imgui/imgui_tables.o: include/imgui/imgui_tables.cpp.o
+.PHONY : include/imgui/imgui_tables.o
+
+# target to build an object file
+include/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_tables.cpp.o
+.PHONY : include/imgui/imgui_tables.cpp.o
+
+include/imgui/imgui_tables.i: include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.i
+
+# target to preprocess a source file
+include/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.cpp.i
+
+include/imgui/imgui_tables.s: include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+include/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.cpp.s
+
+include/imgui/imgui_widgets.o: include/imgui/imgui_widgets.cpp.o
+.PHONY : include/imgui/imgui_widgets.o
+
+# target to build an object file
+include/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_widgets.cpp.o
+.PHONY : include/imgui/imgui_widgets.cpp.o
+
+include/imgui/imgui_widgets.i: include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+include/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.cpp.i
+
+include/imgui/imgui_widgets.s: include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+include/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.cpp.s
+
 src/Application.o: src/Application.cpp.o
 .PHONY : src/Application.o
 
@@ -333,6 +501,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NBodySimulation"
+	@echo "... include/imgui/backends/imgui_impl_glfw.o"
+	@echo "... include/imgui/backends/imgui_impl_glfw.i"
+	@echo "... include/imgui/backends/imgui_impl_glfw.s"
+	@echo "... include/imgui/backends/imgui_impl_opengl3.o"
+	@echo "... include/imgui/backends/imgui_impl_opengl3.i"
+	@echo "... include/imgui/backends/imgui_impl_opengl3.s"
+	@echo "... include/imgui/imgui.o"
+	@echo "... include/imgui/imgui.i"
+	@echo "... include/imgui/imgui.s"
+	@echo "... include/imgui/imgui_demo.o"
+	@echo "... include/imgui/imgui_demo.i"
+	@echo "... include/imgui/imgui_demo.s"
+	@echo "... include/imgui/imgui_draw.o"
+	@echo "... include/imgui/imgui_draw.i"
+	@echo "... include/imgui/imgui_draw.s"
+	@echo "... include/imgui/imgui_tables.o"
+	@echo "... include/imgui/imgui_tables.i"
+	@echo "... include/imgui/imgui_tables.s"
+	@echo "... include/imgui/imgui_widgets.o"
+	@echo "... include/imgui/imgui_widgets.i"
+	@echo "... include/imgui/imgui_widgets.s"
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"

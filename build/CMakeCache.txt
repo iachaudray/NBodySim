@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Build shared libraries
+BUILD_SHARED_LIBS:BOOL=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 
@@ -210,6 +213,76 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Path to a library.
+COCOA_FRAMEWORK:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Cocoa.framework
+
+//Path to a library.
+CORE_FOUNDATION_FRAMEWORK:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework
+
+//Path to a library.
+CORE_VIDEO_FRAMEWORK:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreVideo.framework
+
+//Value Computed by CMake
+GLFW_BINARY_DIR:STATIC=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/include/nanogui/ext_build/glfw
+
+//Build the GLFW documentation
+GLFW_BUILD_DOCS:BOOL=OFF
+
+//Build the GLFW example programs
+GLFW_BUILD_EXAMPLES:BOOL=OFF
+
+// 
+GLFW_BUILD_INSTALL:BOOL=OFF
+
+//Build the GLFW test programs
+GLFW_BUILD_TESTS:BOOL=OFF
+
+//Include internals in documentation
+GLFW_DOCUMENT_INTERNALS:BOOL=OFF
+
+//Generate installation target
+GLFW_INSTALL:BOOL=OFF
+
+//Value Computed by CMake
+GLFW_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+GLFW_SOURCE_DIR:STATIC=/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/nanogui/ext/glfw
+
+//Make glfwInit chdir to Contents/Resources
+GLFW_USE_CHDIR:BOOL=OFF
+
+//Populate the menu bar on first window creation
+GLFW_USE_MENUBAR:BOOL=ON
+
+//Use the full resolution of Retina displays
+GLFW_USE_RETINA:BOOL=ON
+
+//Path to a library.
+IOKIT_FRAMEWORK:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework
+
+//Takes an empty string or 64. Directory where lib will be installed:
+// lib or lib64
+LIB_SUFFIX:STRING=
+
+// 
+NANOGUI_BUILD_EXAMPLE:BOOL=OFF
+
+// 
+NANOGUI_BUILD_PYTHON:BOOL=OFF
+
+//Build NanoGUI as a shared library?
+NANOGUI_BUILD_SHARED:BOOL=ON
+
+// 
+NANOGUI_INSTALL:BOOL=OFF
+
+//Python version to use for compiling the Python plugin
+NANOGUI_PYTHON_VERSION:STRING=
+
+//Use Glad OpenGL loader library?
+NANOGUI_USE_GLAD:BOOL=OFF
+
 //Value Computed by CMake
 NBodySimulation_BINARY_DIR:STATIC=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build
 
@@ -218,6 +291,15 @@ NBodySimulation_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 NBodySimulation_SOURCE_DIR:STATIC=/Users/hamayalchaudray/Desktop/vscode/NBodySim
+
+//Value Computed by CMake
+NanoGUI_BINARY_DIR:STATIC=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/include/nanogui
+
+//Value Computed by CMake
+NanoGUI_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+NanoGUI_SOURCE_DIR:STATIC=/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/nanogui
 
 //Include for OpenGL on OS X
 OPENGL_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework
@@ -228,11 +310,35 @@ OPENGL_gl_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.s
 //GLU library for OS X (usually same as OpenGL library)
 OPENGL_glu_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework
 
+//Path to a file.
+VULKAN_INCLUDE_DIR:PATH=VULKAN_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+VULKAN_LIBRARY:FILEPATH=VULKAN_LIBRARY-NOTFOUND
+
+//Path to a library.
+cocoa_library:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Cocoa.framework
+
+//Path to a library.
+corevideo_library:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreVideo.framework
+
 //The directory containing a CMake configuration file for fmt.
 fmt_DIR:PATH=/usr/local/lib/cmake/fmt
 
 //The directory containing a CMake configuration file for glfw3.
 glfw3_DIR:PATH=/usr/local/lib/cmake/glfw3
+
+//Dependencies for the target
+glfw_LIB_DEPENDS:STATIC=general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Cocoa.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreFoundation.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreVideo.framework;
+
+//Path to a library.
+iokit_library:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework
+
+//Dependencies for the target
+nanogui_LIB_DEPENDS:STATIC=general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/Cocoa.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/CoreVideo.framework;general;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/IOKit.framework;
+
+//Path to a library.
+opengl_library:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework
 
 //The directory containing a CMake configuration file for spdlog.
 spdlog_DIR:PATH=/usr/local/lib/cmake/spdlog
@@ -381,14 +487,42 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: COCOA_FRAMEWORK
+COCOA_FRAMEWORK-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CORE_FOUNDATION_FRAMEWORK
+CORE_FOUNDATION_FRAMEWORK-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CORE_VIDEO_FRAMEWORK
+CORE_VIDEO_FRAMEWORK-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework][c ][v()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//Test HAS_CPP11_FLAG
+HAS_CPP11_FLAG:INTERNAL=1
+//Test HAS_CPP14_FLAG
+HAS_CPP14_FLAG:INTERNAL=1
+//Test HAS_LIBCPP
+HAS_LIBCPP:INTERNAL=1
+//Test HAS_LIBCPPABI
+HAS_LIBCPPABI:INTERNAL=1
+//Result of TRY_COMPILE
+HAS_LIBCPPABI_COMPILED:INTERNAL=TRUE
+//Result of try_run()
+HAS_LIBCPPABI_EXITCODE:INTERNAL=0
+//Result of TRY_COMPILE
+HAS_LIBCPP_COMPILED:INTERNAL=TRUE
+//Result of try_run()
+HAS_LIBCPP_EXITCODE:INTERNAL=0
+//ADVANCED property for variable: IOKIT_FRAMEWORK
+IOKIT_FRAMEWORK-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_INCLUDE_DIR
 OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_gl_LIBRARY
 OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_glu_LIBRARY
 OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VULKAN_INCLUDE_DIR
+VULKAN_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: VULKAN_LIBRARY
+VULKAN_LIBRARY-ADVANCED:INTERNAL=1
 

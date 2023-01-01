@@ -297,3 +297,79 @@ int main(void)
 }
 
 
+Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
+Change Dir: /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-YYbqyB
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b32cb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b32cb.dir/build.make CMakeFiles/cmTC_b32cb.dir/build
+Building CXX object CMakeFiles/cmTC_b32cb.dir/src.cxx.o
+/usr/bin/clang++ -DHAS_CPP14_FLAG  -Wall -Wextra  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6   -std=c++14 -MD -MT CMakeFiles/cmTC_b32cb.dir/src.cxx.o -MF CMakeFiles/cmTC_b32cb.dir/src.cxx.o.d -o CMakeFiles/cmTC_b32cb.dir/src.cxx.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-YYbqyB/src.cxx
+Linking CXX executable cmTC_b32cb
+/usr/local/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b32cb.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b32cb.dir/src.cxx.o -o cmTC_b32cb 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_CPP11_FLAG succeeded with the following output:
+Change Dir: /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-tUI3tH
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_51a6c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_51a6c.dir/build.make CMakeFiles/cmTC_51a6c.dir/build
+Building CXX object CMakeFiles/cmTC_51a6c.dir/src.cxx.o
+/usr/bin/clang++ -DHAS_CPP11_FLAG  -Wall -Wextra  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6   -std=c++11 -MD -MT CMakeFiles/cmTC_51a6c.dir/src.cxx.o -MF CMakeFiles/cmTC_51a6c.dir/src.cxx.o.d -o CMakeFiles/cmTC_51a6c.dir/src.cxx.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-tUI3tH/src.cxx
+Linking CXX executable cmTC_51a6c
+/usr/local/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51a6c.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_51a6c.dir/src.cxx.o -o cmTC_51a6c 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_LIBCPP succeeded with the following compile output:
+Change Dir: /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-puzroO
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b5b38/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b5b38.dir/build.make CMakeFiles/cmTC_b5b38.dir/build
+Building CXX object CMakeFiles/cmTC_b5b38.dir/src.cxx.o
+/usr/bin/clang++ -DHAS_LIBCPP  -Wall -Wextra -std=c++14 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_b5b38.dir/src.cxx.o -MF CMakeFiles/cmTC_b5b38.dir/src.cxx.o.d -o CMakeFiles/cmTC_b5b38.dir/src.cxx.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-puzroO/src.cxx
+/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-puzroO/src.cxx:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+             ^
+/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-puzroO/src.cxx:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+                          ^
+2 warnings generated.
+Linking CXX executable cmTC_b5b38
+/usr/local/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5b38.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -std=c++14 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b5b38.dir/src.cxx.o -o cmTC_b5b38  -stdlib=libc++ 
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main(int argc, char **argv) { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_LIBCPPABI succeeded with the following compile output:
+Change Dir: /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-D13luA
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6526/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6526.dir/build.make CMakeFiles/cmTC_c6526.dir/build
+Building CXX object CMakeFiles/cmTC_c6526.dir/src.cxx.o
+/usr/bin/clang++ -DHAS_LIBCPPABI  -Wall -Wextra -std=c++14 -stdlib=libc++ -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_c6526.dir/src.cxx.o -MF CMakeFiles/cmTC_c6526.dir/src.cxx.o.d -o CMakeFiles/cmTC_c6526.dir/src.cxx.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-D13luA/src.cxx
+/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-D13luA/src.cxx:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+             ^
+/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles/CMakeScratch/TryCompile-D13luA/src.cxx:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+                          ^
+2 warnings generated.
+Linking CXX executable cmTC_c6526
+/usr/local/Cellar/cmake/3.25.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6526.dir/link.txt --verbose=1
+/usr/bin/clang++  -Wall -Wextra -std=c++14 -stdlib=libc++ -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6526.dir/src.cxx.o -o cmTC_c6526  -stdlib=libc++ -lc++abi 
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main(int argc, char **argv) { return 0; }
+

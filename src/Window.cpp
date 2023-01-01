@@ -8,6 +8,9 @@
 
 #include "Log.h"
 #include "Util/Input/KeyInputHandler.h"
+#include "include/imgui/backends/imgui_impl_glfw.h"
+#include "include/imgui/backends/imgui_impl_opengl3.h"
+#include "include/imgui/imgui.h"
 #include "iostream"
 bool Window::isGlfwInitialized = false;
 void Window::setWindowHint(int WindowHint, int Value) {
@@ -27,6 +30,16 @@ void Window::update() {
     glfwSwapBuffers(m_wndw);
     glClearColor(1.0, 1.0, 0.0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
+    ImGui_ImplOpenGL3_NewFrame();
+    ImGui_ImplGlfw_NewFrame();
+    ImGui::NewFrame();
+    ImGui::Begin("Demo window");
+    ImGui::Button("Hello!");
+    ImGui::End();
+
+    // Render dear imgui into screen
+    ImGui::Render();
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
 }
 
 void Window::start() {
@@ -39,6 +52,15 @@ void Window::start() {
     glfwSetKeyCallback(m_wndw, KeyInputHandler::key_callback);
     glfwFocusWindow(m_wndw);
     glfwMakeContextCurrent(m_wndw);
+    // Setup Dear ImGui context
+    IMGUI_CHECKVERSION();
+    ImGui::CreateContext();
+    ImGuiIO &io = ImGui::GetIO();
+    // Setup Platform/Renderer bindings
+    ImGui_ImplGlfw_InitForOpenGL(m_wndw, true);
+    ImGui_ImplOpenGL3_Init("#version 410");
+    // Setup Dear ImGui style
+    ImGui::StyleColorsDark();
     LOG_INFO("Window Created");
 }
 
