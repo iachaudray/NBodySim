@@ -156,29 +156,29 @@ src/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
-src/EntryPoint.o: src/EntryPoint.cpp.o
-.PHONY : src/EntryPoint.o
+src/Entrypoint.o: src/Entrypoint.cpp.o
+.PHONY : src/Entrypoint.o
 
 # target to build an object file
-src/EntryPoint.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o
-.PHONY : src/EntryPoint.cpp.o
+src/Entrypoint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o
+.PHONY : src/Entrypoint.cpp.o
 
-src/EntryPoint.i: src/EntryPoint.cpp.i
-.PHONY : src/EntryPoint.i
+src/Entrypoint.i: src/Entrypoint.cpp.i
+.PHONY : src/Entrypoint.i
 
 # target to preprocess a source file
-src/EntryPoint.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.i
-.PHONY : src/EntryPoint.cpp.i
+src/Entrypoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.i
+.PHONY : src/Entrypoint.cpp.i
 
-src/EntryPoint.s: src/EntryPoint.cpp.s
-.PHONY : src/EntryPoint.s
+src/Entrypoint.s: src/Entrypoint.cpp.s
+.PHONY : src/Entrypoint.s
 
 # target to generate assembly for a file
-src/EntryPoint.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.s
-.PHONY : src/EntryPoint.cpp.s
+src/Entrypoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NBodySimulation.dir/build.make CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.s
+.PHONY : src/Entrypoint.cpp.s
 
 src/Log.o: src/Log.cpp.o
 .PHONY : src/Log.o
@@ -336,9 +336,9 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
-	@echo "... src/EntryPoint.o"
-	@echo "... src/EntryPoint.i"
-	@echo "... src/EntryPoint.s"
+	@echo "... src/Entrypoint.o"
+	@echo "... src/Entrypoint.i"
+	@echo "... src/Entrypoint.s"
 	@echo "... src/Log.o"
 	@echo "... src/Log.i"
 	@echo "... src/Log.s"

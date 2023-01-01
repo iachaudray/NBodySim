@@ -5,7 +5,7 @@
 #include <cstdio>
 #include <filesystem>
 #include <GLFW/glfw3.h>
-#include "glm/detail/type_mat4x4.hpp"
+#include "include/glm/detail/type_mat4x4.hpp"
 
 class ShaderUtil {
 public:

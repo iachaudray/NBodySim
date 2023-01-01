@@ -1,8 +1,8 @@
 CMakeFiles/NBodySimulation.dir/src/Log.cpp.o: \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.h \
-  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/1.10.0_1/spdlog/spdlog.h \
-  /usr/local/include/spdlog/common.h /usr/local/include/spdlog/tweakme.h \
+  /usr/local/include/spdlog/spdlog.h /usr/local/include/spdlog/common.h \
+  /usr/local/include/spdlog/tweakme.h \
   /usr/local/include/spdlog/details/null_mutex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/__config \

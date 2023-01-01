@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Application.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Window.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Log.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp"
+},
+{
+  "directory": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/build",
+  "command": "/usr/bin/clang++ -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui -I/Users/hamayalchaudray/Desktop/vscode/NBodySim/src -I/Users/hamayalchaudray/Desktop/vscode/NBodySim -isystem /usr/local/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp",
+  "file": "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp"
+}
+]

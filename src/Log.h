@@ -3,7 +3,7 @@
 //
 
 #pragma once
-#include "1.10.0_1/spdlog/spdlog.h"
+#include "spdlog/spdlog.h"
 #include <memory>
 
 

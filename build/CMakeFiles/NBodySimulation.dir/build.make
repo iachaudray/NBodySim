@@ -72,121 +72,121 @@ include CMakeFiles/NBodySimulation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NBodySimulation.dir/flags.make
 
-CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
-CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/EntryPoint.cpp
-CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/EntryPoint.cpp
+CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
+CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp
+CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp
 
-CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/EntryPoint.cpp > CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.i
+CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp > CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.i
 
-CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/EntryPoint.cpp -o CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.s
+CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp -o CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Application.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Application.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp
 CMakeFiles/NBodySimulation.dir/src/Application.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Application.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Application.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Application.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Application.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Application.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Application.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Application.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Application.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp > CMakeFiles/NBodySimulation.dir/src/Application.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp > CMakeFiles/NBodySimulation.dir/src/Application.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Application.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp -o CMakeFiles/NBodySimulation.dir/src/Application.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp -o CMakeFiles/NBodySimulation.dir/src/Application.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Window.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Window.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp
 CMakeFiles/NBodySimulation.dir/src/Window.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Window.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Window.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Window.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Window.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Window.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Window.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Window.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Window.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp > CMakeFiles/NBodySimulation.dir/src/Window.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp > CMakeFiles/NBodySimulation.dir/src/Window.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Window.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp -o CMakeFiles/NBodySimulation.dir/src/Window.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Window.cpp -o CMakeFiles/NBodySimulation.dir/src/Window.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Log.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Log.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp
 CMakeFiles/NBodySimulation.dir/src/Log.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Log.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Log.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Log.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Log.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Log.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Log.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Log.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Log.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp > CMakeFiles/NBodySimulation.dir/src/Log.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp > CMakeFiles/NBodySimulation.dir/src/Log.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Log.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp -o CMakeFiles/NBodySimulation.dir/src/Log.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp -o CMakeFiles/NBodySimulation.dir/src/Log.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Renderer.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Renderer.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp
 CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/ShaderUtil.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp
 CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.s
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o: CMakeFiles/NBodySimulation.dir/flags.make
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o: /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o: CMakeFiles/NBodySimulation.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/hamayalchaudray/Desktop/vscode/NBodySim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o -MF CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o.d -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o -c /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp > CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.i
 
 CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp -o CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.s
 
 # Object files for target NBodySimulation
 NBodySimulation_OBJECTS = \
-"CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o" \
+"CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o" \
 "CMakeFiles/NBodySimulation.dir/src/Application.cpp.o" \
 "CMakeFiles/NBodySimulation.dir/src/Window.cpp.o" \
 "CMakeFiles/NBodySimulation.dir/src/Log.cpp.o" \
@@ -198,7 +198,7 @@ NBodySimulation_OBJECTS = \
 # External object files for target NBodySimulation
 NBodySimulation_EXTERNAL_OBJECTS =
 
-NBodySimulation: CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o
+NBodySimulation: CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o
 NBodySimulation: CMakeFiles/NBodySimulation.dir/src/Application.cpp.o
 NBodySimulation: CMakeFiles/NBodySimulation.dir/src/Window.cpp.o
 NBodySimulation: CMakeFiles/NBodySimulation.dir/src/Log.cpp.o

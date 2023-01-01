@@ -8,8 +8,8 @@
 #include "ShaderUtil.h"
 #include "GLFW/glfw3.h"
 #include "Log.h"
-#include "glm/ext/matrix_float4x4.hpp"
-#include "glm/gtc/type_ptr.hpp"
+#include "include/glm/ext/matrix_float4x4.hpp"
+#include "include/glm/gtc/type_ptr.hpp"
 #include <filesystem>
 std::string ShaderUtil::asString(const char *string) {
     std::ifstream t(string);
@@ -26,7 +26,7 @@ void ShaderUtil::asStringtwo() {
     input.str(buffer.str());
     for (std::string line; std::getline(input, line);) {
         //std::cout << line << "\n" << std::endl;
-        LOG_INFO(line);
+        
         if (line.length() > 0) {
             if (line.length() == 8 && (std::equal(line.begin(), line.end(), "//vertex"))) {
                 state = 1;
@@ -59,8 +59,6 @@ void ShaderUtil::asStringtwo() {
         }
 
     }
-    LOG_INFO("Vertex Data");
-    LOG_INFO(vertex.data());
 
 }
 

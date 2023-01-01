@@ -6,10 +6,10 @@
 #include "Renderer.h"
 #include "../../Log.h"
 #include "OpenGL/gl3.h"
-#include "glm/glm.hpp"
-#include "glm/gtc/type_ptr.hpp"
+#include "include/glm/glm.hpp"
+#include "include/glm/gtc/type_ptr.hpp"
 #include "Camera.h"
-#include "glm/gtx/string_cast.hpp"
+#include "include/glm/gtx/string_cast.hpp"
 Renderer::Renderer(const char* shaderSource) {
 
     shader = new ShaderUtil(shaderSource);
@@ -55,5 +55,6 @@ void Renderer::render() {
     shader->s_use();
 
     glDrawElements(GL_TRIANGLES, elements.size(), GL_UNSIGNED_INT, 0);
+    
     
 }

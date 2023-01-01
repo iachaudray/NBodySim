@@ -3,8 +3,8 @@
 //
 
 #pragma once
-#include "glm/glm.hpp"
-#include "glm/ext/matrix_transform.hpp"
+#include "include/glm/glm.hpp"
+#include "include/glm/ext/matrix_transform.hpp"
 
 class Camera {
 public:

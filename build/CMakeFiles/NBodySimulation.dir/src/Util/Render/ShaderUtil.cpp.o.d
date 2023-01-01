@@ -387,8 +387,8 @@ CMakeFiles/NBodySimulation.dir/src/Util/Render/ShaderUtil.cpp.o: \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/compute_common.hpp \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/type_vec1.hpp \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.h \
-  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/1.10.0_1/spdlog/spdlog.h \
-  /usr/local/include/spdlog/common.h /usr/local/include/spdlog/tweakme.h \
+  /usr/local/include/spdlog/spdlog.h /usr/local/include/spdlog/common.h \
+  /usr/local/include/spdlog/tweakme.h \
   /usr/local/include/spdlog/details/null_mutex.h \
   /usr/local/include/spdlog/fmt/fmt.h /usr/local/include/fmt/core.h \
   /usr/local/include/fmt/format.h \

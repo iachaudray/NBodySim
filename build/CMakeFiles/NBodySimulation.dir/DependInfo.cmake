@@ -9,7 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Application.cpp" "CMakeFiles/NBodySimulation.dir/src/Application.cpp.o" "gcc" "CMakeFiles/NBodySimulation.dir/src/Application.cpp.o.d"
-  "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/EntryPoint.cpp" "CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o" "gcc" "CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o.d"
+  "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Entrypoint.cpp" "CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o" "gcc" "CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o.d"
   "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.cpp" "CMakeFiles/NBodySimulation.dir/src/Log.cpp.o" "gcc" "CMakeFiles/NBodySimulation.dir/src/Log.cpp.o.d"
   "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Input/KeyInputHandler.cpp" "CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o" "gcc" "CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o.d"
   "/Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Util/Render/Camera.cpp" "CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o" "gcc" "CMakeFiles/NBodySimulation.dir/src/Util/Render/Camera.cpp.o.d"

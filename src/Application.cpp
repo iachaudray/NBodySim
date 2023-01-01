@@ -13,6 +13,8 @@ Application::Application() {
     m_window->setWindowHint(GLFW_VERSION_MAJOR, 4);
     m_window->setWindowHint(GLFW_VERSION_MINOR, 1);
     m_window->start();
+    LOG_INFO("Application Initialized");
+
 }
 
 Application::~Application() {
@@ -20,11 +22,7 @@ Application::~Application() {
 }
 
 void Application::run() {
-
     
-
-
-
 
     auto renderer = Renderer("../assets/default.glsl");
 

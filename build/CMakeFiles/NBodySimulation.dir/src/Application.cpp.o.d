@@ -168,8 +168,8 @@ CMakeFiles/NBodySimulation.dir/src/Application.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/os/availability.h \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/src/Log.h \
-  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/1.10.0_1/spdlog/spdlog.h \
-  /usr/local/include/spdlog/common.h /usr/local/include/spdlog/tweakme.h \
+  /usr/local/include/spdlog/spdlog.h /usr/local/include/spdlog/common.h \
+  /usr/local/include/spdlog/tweakme.h \
   /usr/local/include/spdlog/details/null_mutex.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/string_view \

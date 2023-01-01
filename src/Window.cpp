@@ -5,16 +5,16 @@
 #include "Window.h"
 #define GL_SILENCE_DEPRECATION
 #include <GLFW/glfw3.h>
-#include "iostream"
+
 #include "Log.h"
 #include "Util/Input/KeyInputHandler.h"
+#include "iostream"
 bool Window::isGlfwInitialized = false;
 void Window::setWindowHint(int WindowHint, int Value) {
     glfwWindowHint(WindowHint, Value);
 }
 
 Window::Window() {
-
     if (!Window::isGlfwInitialized) {
         glfwInit();
         Window::isGlfwInitialized = true;
@@ -39,16 +39,9 @@ void Window::start() {
     glfwSetKeyCallback(m_wndw, KeyInputHandler::key_callback);
     glfwFocusWindow(m_wndw);
     glfwMakeContextCurrent(m_wndw);
-
     LOG_INFO("Window Created");
-
 }
 
-Window::~Window() {
-    glfwTerminate();
-}
+Window::~Window() { glfwTerminate(); }
 
-void Window::closeWindow() {
-    glfwSetWindowShouldClose(m_wndw, GLFW_TRUE);
-}
-
+void Window::closeWindow() { glfwSetWindowShouldClose(m_wndw, GLFW_TRUE); }

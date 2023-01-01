@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/NBodySimulation.dir/src/Application.cpp.o"
   "CMakeFiles/NBodySimulation.dir/src/Application.cpp.o.d"
-  "CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o"
-  "CMakeFiles/NBodySimulation.dir/src/EntryPoint.cpp.o.d"
+  "CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o"
+  "CMakeFiles/NBodySimulation.dir/src/Entrypoint.cpp.o.d"
   "CMakeFiles/NBodySimulation.dir/src/Log.cpp.o"
   "CMakeFiles/NBodySimulation.dir/src/Log.cpp.o.d"
   "CMakeFiles/NBodySimulation.dir/src/Util/Input/KeyInputHandler.cpp.o"

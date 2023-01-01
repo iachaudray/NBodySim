@@ -9,7 +9,6 @@
 int main(int argc, char** argv) {
     Log::Init();
     auto app = new Application();
-    LOG_INFO("Application created");
     app->run();
     return 0;
 }
