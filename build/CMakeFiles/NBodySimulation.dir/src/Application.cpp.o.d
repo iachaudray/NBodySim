@@ -408,4 +408,12 @@ CMakeFiles/NBodySimulation.dir/src/Application.cpp.o: \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/../detail/_fixes.hpp \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/../detail/func_common.inl \
   /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/compute_common.hpp \
-  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/type_vec1.hpp
+  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/glm/detail/type_vec1.hpp \
+  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui/backends/imgui_impl_glfw.h \
+  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui/imgui.h \
+  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui/imconfig.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/float.h \
+  /Users/hamayalchaudray/Desktop/vscode/NBodySim/include/imgui/backends/imgui_impl_opengl3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/TargetConditionals.h

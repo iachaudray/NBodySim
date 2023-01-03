@@ -6,7 +6,6 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 
 set(CMAKE_VERBOSE_MAKEFILE ON CACHE BOOL "ON")
 file(GLOB IM_GUI ${PROJECT_SOURCE_DIR}/include/imgui/*.cpp)
-
 add_executable(NBodySimulation src/Entrypoint.cpp src/Application.cpp src/Application.h src/Window.cpp src/Log.cpp src/Log.h
     src/Util/Render/Renderer.cpp src/Util/Render/ShaderUtil.cpp src/Util/Input/KeyInputHandler.cpp src/Util/Render/Camera.cpp
      include/imgui/backends/imgui_impl_opengl3.cpp include/imgui/backends/imgui_impl_glfw.cpp ${IM_GUI})

@@ -21,6 +21,7 @@ public:
     static bool isGlfwInitialized;
     void closeWindow();
 private:
-    GLFWwindow* m_wndw{};
+    GLFWwindow* m_wndw;
+    void styleInit();
 
 };

@@ -6,7 +6,10 @@
 #include "Window.h"
 #include "Util/Input/KeyInputHandler.h"
 #include "Util/Render/Renderer.h"
-
+#include "include/imgui/backends/imgui_impl_glfw.h"
+#include "include/imgui/backends/imgui_impl_opengl3.h"
+#include "include/imgui/imconfig.h"
+#include "include/imgui/imgui.h"
 
 Application::Application() {
     m_window = new Window();
@@ -33,5 +36,16 @@ void Application::run() {
         }
         m_window->update();
         renderer.render();
+        ImGui_ImplOpenGL3_NewFrame();
+    ImGui_ImplGlfw_NewFrame();
+    ImGui::NewFrame();
+    ImGui::Begin("Demo window");
+    ImGui::ColorPicker3("Color Picker", new float[3]{256, 256, 256});
+    ImGui::Button("Hello!");
+    ImGui::End();
+
+    // Render dear imgui into screen
+    ImGui::Render();
+    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
     }
 }
